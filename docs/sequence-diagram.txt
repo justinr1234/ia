@@ -1,0 +1,7 @@
+Producer->Generator: Request expression
+Generator-->Producer: Return expression
+Producer->Consumer: Send expression
+Consumer->Evaluator: Request evaluation
+Note right of Evaluator: Compute result
+Evaluator-->Consumer: Return result
+Consumer-->Producer: Send result

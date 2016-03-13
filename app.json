@@ -1,0 +1,29 @@
+{
+  "name": "IA",
+  "description": "IA",
+  "repository": "https://github.com/justinr1234/ia",
+  "logo": "https://raw.githubusercontent.com/justinr1234/ia/master/docs/sequence-diagram.svg",
+  "keywords": ["ia"],
+  "env": {
+    "PRODUCER_MIN": {
+			"description": "Minimum integer for randomly generated numbers.",
+			"value": "0"
+		},
+		"PRODUCER_MAX": {
+			"description": "Maximum integer for randomly generated numbers.",
+			"value": "1000"
+		},
+		"PRODUCER_INTERVAL": {
+			"description": "Random number generation interval in milliseconds.",
+			"value": "1000"
+		},
+		"CONSUMER_URL": {
+			"description": "URL of the consumer, not including the port.",
+			"value": ""
+		},
+		"CONSUMER_PORT": {
+			"description": "Consumer port.",
+			"value": "80"
+		}
+	}
+}

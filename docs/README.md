@@ -1,0 +1,2 @@
+- Sequence Diagram: [js-sequence-daigrams](http://bramp.github.io/js-sequence-diagrams/)
+- Activity Diagram: [StarUML](http://staruml.io/)

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>IA</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <span class="help-block">Enter a an expression of the form a&#60;expression&#62;b= where &#60;expression&#62; is one of + - * /<br><b>Example: </b><i>20+30=</i></span>
+  <form action="">
+    <input id="expression" type="text" placeholder="Expression">
+  </form>
+
+  <div id="activity-feed" class="activity-feed">
+  </div>
+
+  <script src="js/lib/socket.io-1.4.5.js"></script>
+  <script src="js/lib/jquery-1.12.1.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
